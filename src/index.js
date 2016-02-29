@@ -8,5 +8,7 @@ import { hello } from './hello';
  * @type {{}}
  */
 const bossRefactor = {};
+
+// this is just to test everything
 bossRefactor.hello = hello;
 window.bossRefactor = bossRefactor;
